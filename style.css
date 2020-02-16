@@ -1,0 +1,16 @@
+img.img-resize {
+    width: 205px;
+    height: 205px;
+}
+
+div.product {
+    border: 1px solid #CCD1D1;
+    background-color: white;
+    border-radius: 5px;
+    padding: 1px;
+    margin: 1px;
+}
+
+h4 {
+    font-size: 16px;
+}

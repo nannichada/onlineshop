@@ -3,7 +3,7 @@
 session_start();
 include('include/condb.php');
 
-$sql="SELECT * FROM `tbl_product` WHERE `type_id`=7";
+$sql="SELECT * FROM `tbl_product` WHERE `type_id`=1";
 $result=mysqli_query($con,$sql);
 if(isset($_POST["add_product"])){
       if(isset($_SESSION["shopping_cart"])){
